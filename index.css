@@ -1,0 +1,165 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;  
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    
+    width:100%;
+    color: white;
+    padding: 20px;
+    background-image: url(img/headerfon.jpg);
+    background-size: cover;
+	box-sizing: border-box;
+}
+.logo-img {
+    border-radius: 35%;
+}
+.logo-title {
+    font-family: Book Antiqua;
+}
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: white;
+    -webkit-text-stroke: 0.7px black;
+    text-decoration: none;
+}
+
+/* Дополнительно */
+
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main {
+    background-image: url(img/bluefon1.jpg);
+    background-size: cover;
+}
+/* CARDS */
+
+.cards-section{
+    padding: 50px 0px;
+}
+
+.cards-title, .banner-title, .about-title {
+font-size: 28px ;
+font-family: Georgia;
+}
+.cards-description, .banner-description, .about-description{
+font-size: 19px;
+font-family: Georgia;
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px 0px darkslategray;
+    text-align: center;
+}
+
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+
+.card-button{
+    text-align: center;
+    background: coral;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+/* Дополнительно */
+
+.card-button{
+    cursor: pointer;
+}
+
+/* BANNER */
+
+.banner-section{
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.cards-description, .cards-title, .banner-title, .banner-description, .about-title, .about-description {
+    text-align: center;
+    color: white;
+  
+}
+.banner-buttons {
+    padding: 20px;
+    margin-top: 25px;
+    width: 15%;
+    box-shadow: 0px 2px 7px 0px darkslategray;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.banner-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.banner-link {
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+}
+
+/* ABOUT */
+.about-banner {
+    font-size: 20px;
+    font-family: Georgia;
+    padding: 20px;
+    margin-top: 25px;
+    width: 100%;
+    box-shadow: 0px 2px 7px 0px darkslategray;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about-img {
+    width: 190px;
+    height: 190px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* FOOTER */
+
+.footer{
+    background:url(img/footerfon.jpg) ;
+    background-size: cover;
+    padding: 15px 0px;
+}
+
+.copyright{
+    color: white;
+    font-family: Comic Sans MS;
+}
+
